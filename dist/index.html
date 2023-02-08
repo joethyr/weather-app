@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-  <script src="https://kit.fontawesome.com/6475dba65c.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="card">
-    <div class="search">
-      <input type="text" class="search-bar">
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1f32de32e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search for City..."
+        />
+        <button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+      </div>
+      <div class="weather">
+        <h2 class="city">Denver, US</h2>
+        <img src="" alt="" class="" />
+        <div class="temperature">38°F</div>
+        <div class="description">Clear sky. Light breeze</div>
+        <div class="wind">4.0mph SSE</div>
+        <div class="humidity">36%</div>
+      </div>
     </div>
-  </div>
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

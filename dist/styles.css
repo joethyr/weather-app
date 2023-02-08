@@ -1,0 +1,50 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1579619572008-3fe9f19748ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.card {
+  background-color: #00000098;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem;
+  margin-top: 10rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  font-size: 100%;
+  margin-right: 0.5rem;
+  border-radius: 3rem;
+  background-color: rgba(255, 255, 255, 0.068);
+  width: 50%;
+  color: white;
+}
+
+.search > button {
+  background-color: #ffffff00;
+  border: none;
+  color: white;
+}
+
+.search > button:hover {
+  cursor: pointer;
+  color: rgb(179, 179, 179);
+}
