@@ -20,20 +20,32 @@
   <body>
     <div class="card">
       <div class="search">
-        <input
-          type="text"
-          class="search-bar"
-          placeholder="Search for City..."
-        />
-        <button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+        <form action="">
+          <input
+            type="text"
+            class="search-bar"
+            placeholder="Search for City..."
+          />
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </button>
+        </form>
       </div>
       <div class="weather">
-        <h2 class="city">Denver, US</h2>
-        <img src="" alt="" class="" />
-        <div class="temperature">38°F</div>
-        <div class="description">Clear sky. Light breeze</div>
-        <div class="wind">4.0mph SSE</div>
-        <div class="humidity">36%</div>
+        <div class="weather-left">
+          <img src="" class="" />
+          <h2 class="location"></h2>
+        </div>
+        <div class="weather-right">
+          <div class="tempCelsius temperature" data-temp-unit="celsius"></div>
+          <div
+            class="tempFahrenheit temperature"
+            data-temp-unit="fahrenheit"
+          ></div>
+          <div class="description"></div>
+          <div class="wind"></div>
+          <div class="humidity"></div>
+        </div>
       </div>
     </div>
     <script src="main.js"></script>

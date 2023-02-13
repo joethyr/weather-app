@@ -10,7 +10,7 @@ body {
 }
 
 .card {
-  background-color: #00000098;
+  background-color: #000000b9;
   color: white;
   padding: 2rem;
   border-radius: 10px;
@@ -34,17 +34,51 @@ body {
   margin-right: 0.5rem;
   border-radius: 3rem;
   background-color: rgba(255, 255, 255, 0.068);
-  width: 50%;
+  width: 80%;
   color: white;
 }
 
-.search > button {
+.search-button {
   background-color: #ffffff00;
   border: none;
   color: white;
 }
 
-.search > button:hover {
+.search-button:hover {
   cursor: pointer;
   color: rgb(179, 179, 179);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.weather-right {
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+
+.temperature {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.temperature:hover {
+  color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.tempCelsius {
+  display: block;
+}
+
+.tempFahrenheit {
+  display: none;
 }
